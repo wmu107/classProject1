@@ -1,6 +1,8 @@
 # 10.18 Spring Security 项目实战
 ## 介绍
 - **历史-> hash 彩虹表加密 -> salt加盐 明文**
+    - hash表加密不可逆
+    - salt加盐，例： dog12345，但彩虹表中只会记录后面数字的hash表（有意义的、……），dog 明文不可知
 - spring-security-study
     - 01<br>
         实现登录界面，密码由系统生成
